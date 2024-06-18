@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 from cv2 import aruco
-import numpy as np
+import numpy
 
 # Загружаем модель
 model = YOLO("best.pt")
